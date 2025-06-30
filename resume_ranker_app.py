@@ -51,7 +51,7 @@ Only return the number.
 
 # Streamlit UI
 st.title("Resume Ranker ")
-st.write("Upload a **Job Description** and up to **10 Resumes** in PDF format.")
+st.write("Upload a Job Description and up to 10 Resumes in PDF format.")
 
 jd_file = st.file_uploader("Upload Job Description (PDF)", type="pdf")
 resume_files = st.file_uploader("Upload Resumes (PDF)", type="pdf", accept_multiple_files=True)
